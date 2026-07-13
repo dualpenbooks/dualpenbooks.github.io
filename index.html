@@ -30,6 +30,10 @@
   .filo{width:64px;height:3px;background:var(--oro);margin:14px 0 28px}
   p{margin-bottom:14px;font-size:1.04rem}
 
+  nav{position:sticky;top:0;background:rgba(245,240,228,.97);border-bottom:1px solid #e6dfd0;z-index:50}
+  nav .dentro{max-width:960px;margin:0 auto;padding:13px 24px;display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center}
+  nav a{color:var(--inchiostro);text-decoration:none;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;font-family:Helvetica,Arial,sans-serif}
+  nav a:hover{color:var(--oro-scuro)}
   .hero{background:var(--avorio);text-align:center;padding:64px 0 56px;border-bottom:1px solid #e6dfd0}
   .hero img.logo{width:300px;max-width:70%;height:auto;margin-bottom:10px}
   .hero h1{font-size:2rem;margin-bottom:10px}
@@ -77,6 +81,17 @@
 </style>
 </head>
 <body>
+<nav>
+  <div class="dentro">
+    <a href="#studio">Lo studio</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#edizioni">Edizioni</a>
+    <a href="#penne">Le penne</a>
+    <a href="#metodo">Metodo</a>
+    <a href="#preventivi">Preventivi</a>
+    <a href="#contatti">Contatti</a>
+  </div>
+</nav>
 
 <div class="hero">
   <div class="container">
@@ -95,7 +110,7 @@
   </div>
 </div>
 
-<section>
+<section id="studio">
   <div class="container">
     <h2>Lo studio</h2>
     <div class="filo"></div>
@@ -106,7 +121,7 @@
   </div>
 </section>
 
-<section class="servizi" style="padding-top:0">
+<section class="servizi" id="servizi" style="padding-top:0">
   <div class="container">
     <h2>Cosa facciamo per te</h2>
     <div class="filo"></div>
@@ -123,7 +138,7 @@
   </div>
 </section>
 
-<section class="edizioni">
+<section class="edizioni" id="edizioni">
   <div class="container">
     <h2>Le nostre edizioni</h2>
     <div class="filo"></div>
@@ -140,7 +155,7 @@
   </div>
 </section>
 
-<section class="penne">
+<section class="penne" id="penne">
   <div class="container">
     <h2>Le penne della casa</h2>
     <div class="filo"></div>
@@ -157,14 +172,14 @@
       </div>
       <div class="penna">
         <a href="https://www.npi-biographe.com/biographe-familial/etienne-fiorini-17/" target="_blank" rel="noopener" title="Étienne Fiorini"><img class="volto" src="img/penna-etienne.jpg" alt="Étienne Fiorini" loading="lazy"></a><div class="nome">Étienne Fiorini</div>
-        <div class="ruolo">Biografie · clienti francofoni</div>
-        <p>Il biografo dello studio, membro di una rete europea di biografi professionisti. Per i clienti di lingua francese.</p>
+        <div class="ruolo">Biografie · Progetti internazionali</div>
+        <p>Il biografo dello studio, membro di una rete europea di biografi professionisti: storie di vita e memorie di famiglia, in Italia e all'estero.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="metodo" style="background:var(--avorio)">
+<section class="metodo" id="metodo" style="background:var(--avorio)">
   <div class="container">
     <h2>Come lavoriamo</h2>
     <div class="filo"></div>
@@ -178,7 +193,7 @@
   </div>
 </section>
 
-<section>
+<section id="preventivi">
   <div class="container">
     <h2>Tariffe</h2>
     <div class="filo"></div>
