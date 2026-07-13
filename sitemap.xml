@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dualpenbooks.com/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+  </url>
+  <url><loc>https://dualpenbooks.com/en/</loc><lastmod>2026-07-13</lastmod></url>
+  <url><loc>https://dualpenbooks.com/fr/</loc><lastmod>2026-07-13</lastmod></url>
+  <url><loc>https://dualpenbooks.com/de/</loc><lastmod>2026-07-13</lastmod></url>
+</urlset>
