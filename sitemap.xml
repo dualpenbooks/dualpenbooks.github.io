@@ -227,4 +227,40 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/biografo-in-toscana/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/biographer-in-tuscany/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/biographe-en-toscane/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/biograf-in-der-toskana/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+  </url>
 </urlset>
