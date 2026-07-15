@@ -335,4 +335,40 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/per-editori-e-agenzie/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/for-publishers-and-agencies/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/pour-editeurs-et-agences/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/fuer-verlage-und-agenturen/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+  </url>
 </urlset>
