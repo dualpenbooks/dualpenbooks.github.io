@@ -263,4 +263,76 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/i-have-written-a-book-what-now/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/un-libro-per-la-tua-azienda/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/a-book-for-your-company/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+  </url>
 </urlset>
