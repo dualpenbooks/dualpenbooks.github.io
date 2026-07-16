@@ -2,373 +2,767 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dualpenbooks.com/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/quanto-costa-un-ghostwriter/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-un-prete-plume/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/combien-coute-un-prete-plume/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/combien-coute-un-prete-plume/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-ghostwriter-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-un-ghostwriter/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-autobiography/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/who-can-write-my-autobiography/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/who-can-write-my-autobiography/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-autobiography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-autobiography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-autobiography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-autobiography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-autobiographie/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-autobiografie-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-autobiografia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivere-la-mia-autobiografia/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/ghostwriter-come-funziona/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-does-a-ghostwriter-work/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/how-does-a-ghostwriter-work/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/how-does-a-ghostwriter-work/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-does-a-ghostwriter-work/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-does-a-ghostwriter-work/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-does-a-ghostwriter-work/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-does-a-ghostwriter-work/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/comment-travaille-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wie-arbeitet-ein-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-trabaja-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ghostwriter-come-funziona/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-a-family-biography-cost/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-une-biographie-familiale/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-eine-familienbiografie/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-una-biografia-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-una-biografia-di-famiglia/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
   </url>
-  <url><loc>https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/</loc><lastmod>2026-07-13</lastmod></url>
+  <url>
+    <loc>https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-to-publish-a-parents-or-grandparents-book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/publier-le-livre-dun-parent-ou-grand-parent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/das-buch-der-eltern-oder-grosseltern-veroeffentlichen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-publicar-el-libro-de-un-padre-o-un-abuelo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-pubblicare-il-libro-di-un-genitore-o-di-un-nonno/"/>
+  </url>
 
   <url>
     <loc>https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/what-can-a-ghostwriter-write/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/"/>
-  </url>
-  <url><loc>https://dualpenbooks.com/en/what-can-a-ghostwriter-write/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/</loc><lastmod>2026-07-13</lastmod></url>
-  <url>
-    <loc>https://dualpenbooks.com/estratti/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
   </url>
   <url>
-    <loc>https://dualpenbooks.com/en/excerpts/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+    <loc>https://dualpenbooks.com/en/what-can-a-ghostwriter-write/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/what-can-a-ghostwriter-write/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
   </url>
   <url>
-    <loc>https://dualpenbooks.com/fr/extraits/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+    <loc>https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/what-can-a-ghostwriter-write/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
   </url>
   <url>
-    <loc>https://dualpenbooks.com/de/leseproben/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+    <loc>https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/what-can-a-ghostwriter-write/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/what-can-a-ghostwriter-write/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/que-peut-ecrire-un-prete-plume/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kann-ein-ghostwriter-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/que-puede-escribir-un-ghostwriter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/cosa-puo-scrivere-un-ghostwriter/"/>
+  </url>
+
   <url>
     <loc>https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-speech/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/who-can-write-my-speech/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-speech/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-speech/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-speech/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/who-can-write-my-speech/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/qui-peut-ecrire-mon-discours/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/wer-kann-meine-rede-schreiben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/quien-puede-escribir-mi-discurso/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/chi-puo-scrivermi-un-discorso/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-book-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-un-livre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-ein-buch-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-un-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-un-libro/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/un-libro-come-regalo/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-as-a-gift/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-en-cadeau/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-como-regalo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/a-book-as-a-gift/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-as-a-gift/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-en-cadeau/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-como-regalo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/un-livre-en-cadeau/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-as-a-gift/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-en-cadeau/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-como-regalo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/ein-buch-als-geschenk/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-as-a-gift/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-en-cadeau/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-como-regalo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/un-libro-como-regalo/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-as-a-gift/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-en-cadeau/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-als-geschenk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-como-regalo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-come-regalo/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/biografo-in-toscana/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/biografo-en-la-toscana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/biographer-in-tuscany/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/biografo-en-la-toscana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/biographe-en-toscane/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/biografo-en-la-toscana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/biograf-in-der-toskana/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/biografo-en-la-toscana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/biografo-en-la-toscana/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/biographer-in-tuscany/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/biographe-en-toscane/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/biograf-in-der-toskana/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/biografo-en-la-toscana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/biografo-in-toscana/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/i-have-written-a-book-what-now/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/i-have-written-a-book-what-now/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/jai-ecrit-un-livre-et-maintenant/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ich-habe-ein-buch-geschrieben-was-jetzt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/he-escrito-un-libro-y-ahora-que/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/ho-scritto-un-libro-e-adesso/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/un-libro-per-la-tua-azienda/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-para-su-empresa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/a-book-for-your-company/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-para-su-empresa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-para-su-empresa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-para-su-empresa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
   </url>
   <url>
+    <loc>https://dualpenbooks.com/es/un-libro-para-su-empresa/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/a-book-for-your-company/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/un-livre-pour-votre-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/ein-buch-fuer-ihr-unternehmen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/un-libro-para-su-empresa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/un-libro-per-la-tua-azienda/"/>
+  </url>
+
+  <url>
     <loc>https://dualpenbooks.com/per-editori-e-agenzie/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/para-editoriales-y-agencias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/en/for-publishers-and-agencies/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/para-editoriales-y-agencias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/fr/pour-editeurs-et-agences/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/para-editoriales-y-agencias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/de/fuer-verlage-und-agenturen/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/para-editoriales-y-agencias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/para-editoriales-y-agencias/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/for-publishers-and-agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/pour-editeurs-et-agences/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/fuer-verlage-und-agenturen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/para-editoriales-y-agencias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/per-editori-e-agenzie/"/>
+  </url>
+
+  <url>
+    <loc>https://dualpenbooks.com/estratti/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/fragmentos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/excerpts/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/fragmentos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/extraits/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/fragmentos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/leseproben/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/fragmentos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/fragmentos/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/estratti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/excerpts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/extraits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/leseproben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/fragmentos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
+  </url>
+
 </urlset>
