@@ -75,7 +75,7 @@
   section{padding:44px 0 8px}
   h2{font-size:1.55rem;margin-bottom:8px}
   .filo{width:64px;height:3px;background:var(--oro);margin:14px 0 24px}
-  p{margin-bottom:14px;font-size:1.04rem}
+  p{margin-bottom:14px;font-size:1.15rem}
   a{color:var(--oro-scuro)}
 
   nav{position:sticky;top:0;background:rgba(245,240,228,.97);border-bottom:1px solid #e6dfd0;z-index:50}
@@ -104,6 +104,10 @@
   .contatti a.mail{color:var(--oro);font-size:1.2rem;text-decoration:none}
   .cta{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:13px 32px;border-radius:6px;text-decoration:none;font-size:1.02rem;letter-spacing:.04em;margin-top:14px}
   .cta:hover{background:var(--oro-scuro);color:var(--avorio)}
+  .wa{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:14px 34px;border-radius:6px;text-decoration:none;font-size:1.08rem;letter-spacing:.03em;margin-top:6px;font-family:Helvetica,Arial,sans-serif}
+  .wa:hover{background:var(--oro-scuro);color:var(--avorio)}
+  .altro{font-size:1rem;margin-top:20px}
+  .altro a{color:var(--oro)}
 
   footer{background:#1b1712;color:#8d8577;text-align:center;padding:22px 0;font-size:.85rem}
   footer a{color:#8d8577}
@@ -207,10 +211,20 @@
     <div class="filo"></div>
     <img src="/img/giovanni-casali.jpg" alt="Giovanni Casali" style="width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid var(--oro);margin:0 auto 18px;display:block">
     <p>Raccontateci in due righe la storia che avete in mente e chi la dovrebbe raccontare:<br>il primo colloquio è gratuito e senza impegno.</p>
+    <p><a id="wa" class="wa" href="#" rel="noopener">Scrivici su WhatsApp</a></p>
     <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a><br>vi risponde Giovanni Casali, coordinatore editoriale</p>
-    <a class="cta" href="/#contatti">Primo colloquio gratuito</a>
+    <p class="altro"><a href="/estratti/">Vuoi prima farti un'idea di come scriviamo? Leggi qualche estratto.</a></p>
   </div>
 </div>
+
+<script>
+(function(){
+var n=["3","93","79","39","05","73","6"].join("");
+var m=encodeURIComponent("Ciao, vorrei informazioni per un progetto di libro.");
+var l=document.getElementById("wa");
+if(l){l.href="https://wa.me/"+n+"?text="+m;}
+})();
+</script>
 
 <footer>
   <div class="container">© 2026 DualPen Books · Studio editoriale · Toscana · <a href="/">dualpenbooks.com</a> · <a href="/privacy/">Privacy</a></div>
