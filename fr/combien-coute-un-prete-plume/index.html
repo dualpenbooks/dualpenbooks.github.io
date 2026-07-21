@@ -21,6 +21,13 @@
 <link rel="icon" type="image/png" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="stylesheet" href="/css/domanda.css">
+<style>
+p{font-size:1.15rem}
+.wa{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:14px 34px;border-radius:6px;text-decoration:none;font-size:1.08rem;letter-spacing:.03em;margin-top:6px;font-family:Helvetica,Arial,sans-serif}
+.wa:hover{background:var(--oro-scuro);color:var(--avorio)}
+.altro{font-size:1rem;margin-top:20px}
+.altro a{color:var(--oro)}
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -141,10 +148,20 @@
     <div class="filo"></div>
     <img class="volto-contatti" src="/img/giovanni-casali.jpg" alt="Giovanni Casali">
     <p>La façon la plus simple de savoir combien coûte <strong>votre</strong> livre, c'est de nous le raconter : le premier entretien est gratuit et sans engagement.</p>
+    <p><a id="wa" class="wa" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a></p>
     <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a><br>Giovanni Casali, coordinateur éditorial, vous répondra.</p>
-    <a class="cta" href="/fr/#contatti">Premier entretien gratuit</a>
+    <p class="altro"><a href="/fr/extraits/">Envie de voir d'abord comment nous écrivons ? Lisez quelques extraits.</a></p>
   </div>
 </div>
+
+<script>
+(function(){
+var n=["3","93","79","39","05","73","6"].join("");
+var m=encodeURIComponent("Bonjour, je voudrais des informations pour un projet de livre.");
+var l=document.getElementById("wa");
+if(l){l.href="https://wa.me/"+n+"?text="+m;}
+})();
+</script>
 
 <footer>
   <div class="container">© 2026 DualPen Books · Studio éditorial · Toscane · <a href="/fr/">dualpenbooks.com</a> · <a href="/fr/confidentialite/">Confidentialité</a></div>
