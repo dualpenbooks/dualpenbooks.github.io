@@ -1,10 +1,30 @@
-/* DualPen Books - misurazione clic WhatsApp con consenso.
-   Il tag Google viene caricato SOLO dopo l'accettazione dell'utente.
-   Se l'utente rifiuta o non sceglie, nessun cookie e nessun tag. */
+/* DualPen Books - misurazione clic WhatsApp con MODALITA' CONSENSO di Google (Consent Mode v2).
+   PROPOSTA da rivedere col legale prima di pubblicare. Non ancora online.
+
+   Differenza rispetto alla versione attuale:
+   - PRIMA: il tag Google si caricava SOLO dopo "Accetto". Quasi nessuno accetta,
+     quindi non veniva misurato quasi niente (contatore fermo a 0 con 160 visite).
+   - ADESSO: il tag si carica sempre, ma parte in stato "consenso NEGATO" (default).
+     In stato negato Google NON scrive cookie e NON usa identificatori: manda solo
+     un segnale anonimo e aggregato (conversione "modellata"). Se l'utente clicca
+     "Accetto", il consenso passa a "concesso" e la misura diventa piena (con cookie).
+   - Il clic sul pulsante WhatsApp viene quindi contato in entrambi gli stati.
+
+   >>> PUNTO PER IL LEGALE: in stato "negato" il tag invia comunque a Google un segnale
+       anonimo e senza cookie. E' il meccanismo standard della modalita' consenso, ma
+       e' anche il punto che va approvato. Se il legale preferisce "nessun dato a Google
+       finche' l'utente non accetta", mettere STRICT = true qui sotto: in quel caso in
+       stato negato non parte NULLA (identico alla filosofia attuale, ma col tag gia'
+       pronto a scattare appena si accetta). */
+
 (function () {
-  var CID = "AW-18323732686";
+  var CID  = "AW-18323732686";
   var SEND = "AW-18323732686/M_s0CPq5_9McEM7xt6FE";
-  var KEY = "dp_consent";
+  var KEY  = "dp_consent";
+
+  // Se true: in stato "negato" non si invia NULLA a Google (scelta piu' prudente).
+  // Se false: modalita' consenso piena con conversioni modellate anche senza consenso.
+  var STRICT = true;
 
   var lang = (document.documentElement.lang || "it").slice(0, 2).toLowerCase();
   var TXT = {
@@ -16,40 +36,59 @@
   };
   var t = TXT[lang] || TXT.it;
 
-  function loadGtag() {
-    if (window.__dpGtagLoaded) return;
-    window.__dpGtagLoaded = true;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
-    var s = document.createElement("script");
-    s.async = true;
-    s.src = "https://www.googletagmanager.com/gtag/js?id=" + CID;
-    document.head.appendChild(s);
-    window.gtag("js", new Date());
-    window.gtag("config", CID);
-  }
-
-  function fireConversion() {
-    if (typeof window.gtag === "function") {
-      window.gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
-    }
-  }
+  // gtag stub: accoda i comandi finche' lo script vero non e' pronto.
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
 
   function readConsent() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function writeConsent(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
 
-  var consent = readConsent();
-  if (consent === "yes") loadGtag();
+  var saved = readConsent(); // "yes" | "no" | null
+  var granted = (saved === "yes");
 
-  // Aggancia il clic sul pulsante WhatsApp: la conversione parte solo col consenso.
+  // 1) Stato di consenso DI DEFAULT, impostato PRIMA di caricare il tag.
+  gtag("consent", "default", {
+    ad_storage:         granted ? "granted" : "denied",
+    ad_user_data:       granted ? "granted" : "denied",
+    ad_personalization: granted ? "granted" : "denied",
+    analytics_storage:  granted ? "granted" : "denied",
+    wait_for_update:    500
+  });
+
+  // 2) In modalita' STRICT non si carica il tag finche' non c'e' consenso esplicito.
+  var loaded = false;
+  function loadGtag() {
+    if (loaded) return;
+    loaded = true;
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + CID;
+    document.head.appendChild(s);
+    gtag("js", new Date());
+    gtag("config", CID, { url_passthrough: true });
+  }
+  if (!STRICT || granted) loadGtag();
+
+  // 3) Clic sul pulsante WhatsApp: conta la conversione (piena se consenso, modellata se negato).
   var wa = document.getElementById("wa");
   if (wa) {
     wa.addEventListener("click", function () {
-      if (readConsent() === "yes") fireConversion();
+      if (STRICT && readConsent() !== "yes") return; // in strict, senza consenso non si invia
+      if (!loaded) loadGtag();
+      gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
     });
   }
 
-  if (!consent) showBanner();
+  // 4) Banner: compare solo se l'utente non ha ancora scelto.
+  if (!saved) showBanner();
+
+  function grantAll() {
+    gtag("consent", "update", {
+      ad_storage: "granted", ad_user_data: "granted",
+      ad_personalization: "granted", analytics_storage: "granted"
+    });
+    loadGtag();
+  }
 
   function showBanner() {
     var bar = document.createElement("div");
@@ -76,7 +115,7 @@
     no.textContent = t.no;
     no.style.cssText = "background:transparent;color:#f5f0e4;border:1px solid #6e675c;border-radius:5px;padding:9px 22px;font-size:.92rem;cursor:pointer";
 
-    ok.addEventListener("click", function () { writeConsent("yes"); loadGtag(); bar.parentNode && bar.parentNode.removeChild(bar); });
+    ok.addEventListener("click", function () { writeConsent("yes"); grantAll(); bar.parentNode && bar.parentNode.removeChild(bar); });
     no.addEventListener("click", function () { writeConsent("no"); bar.parentNode && bar.parentNode.removeChild(bar); });
 
     bar.appendChild(msg);
