@@ -19,6 +19,7 @@
 
 (function () {
   var CID  = "AW-18323732686";
+  var GA4  = "G-K3HBMFHEZS";
   var SEND = "AW-18323732686/M_s0CPq5_9McEM7xt6FE";
   var KEY  = "dp_consent";
 
@@ -28,11 +29,11 @@
 
   var lang = (document.documentElement.lang || "it").slice(0, 2).toLowerCase();
   var TXT = {
-    it: { msg: "Usiamo un solo cookie di Google per misurare i clic sul pulsante WhatsApp. Lo accetti?", ok: "Accetto", no: "Rifiuto", more: "Privacy", priv: "/privacy/" },
-    en: { msg: "We use a single Google cookie to measure clicks on the WhatsApp button. Do you accept?", ok: "Accept", no: "Decline", more: "Privacy", priv: "/en/privacy/" },
-    fr: { msg: "Nous utilisons un seul cookie Google pour mesurer les clics sur le bouton WhatsApp. Acceptez-vous ?", ok: "Accepter", no: "Refuser", more: "Confidentialité", priv: "/fr/confidentialite/" },
-    de: { msg: "Wir verwenden ein einziges Google-Cookie, um Klicks auf die WhatsApp-Schaltfläche zu messen. Sind Sie einverstanden?", ok: "Akzeptieren", no: "Ablehnen", more: "Datenschutz", priv: "/de/datenschutz/" },
-    es: { msg: "Usamos una sola cookie de Google para medir los clics en el botón de WhatsApp. ¿Acepta?", ok: "Aceptar", no: "Rechazar", more: "Privacidad", priv: "/es/privacidad/" }
+    it: { msg: "Usiamo i cookie di Google per misurare le visite e i clic sul pulsante WhatsApp. Li accetti?", ok: "Accetto", no: "Rifiuto", more: "Privacy", priv: "/privacy/" },
+    en: { msg: "We use Google cookies to measure visits and clicks on the WhatsApp button. Do you accept?", ok: "Accept", no: "Decline", more: "Privacy", priv: "/en/privacy/" },
+    fr: { msg: "Nous utilisons des cookies Google pour mesurer les visites et les clics sur le bouton WhatsApp. Acceptez-vous ?", ok: "Accepter", no: "Refuser", more: "Confidentialité", priv: "/fr/confidentialite/" },
+    de: { msg: "Wir verwenden Google-Cookies, um Besuche und Klicks auf die WhatsApp-Schaltfläche zu messen. Sind Sie einverstanden?", ok: "Akzeptieren", no: "Ablehnen", more: "Datenschutz", priv: "/de/datenschutz/" },
+    es: { msg: "Usamos cookies de Google para medir las visitas y los clics en el botón de WhatsApp. ¿Acepta?", ok: "Aceptar", no: "Rechazar", more: "Privacidad", priv: "/es/privacidad/" }
   };
   var t = TXT[lang] || TXT.it;
 
@@ -66,6 +67,7 @@
     document.head.appendChild(s);
     gtag("js", new Date());
     gtag("config", CID, { url_passthrough: true });
+    gtag("config", GA4);
   }
   if (!STRICT || granted) loadGtag();
 
