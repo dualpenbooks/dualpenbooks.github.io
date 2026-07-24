@@ -765,4 +765,54 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/estratti/"/>
   </url>
 
+  <url>
+    <loc>https://dualpenbooks.com/recensioni/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/book-reviews/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/critiques-de-livres/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/buchrezensionen/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/resenas-de-libros/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/"/>
+  </url>
 </urlset>

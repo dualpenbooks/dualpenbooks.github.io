@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recensioni editoriali per autori · DualPen Books</title>
+<meta name="description" content="Il tuo libro recensito da una redazione editoriale, con una data certa. Recensione pubblicata, estratto citabile su Amazon, versione inglese e card per i social.">
+<meta property="og:title" content="Recensioni editoriali per autori">
+<meta property="og:description" content="La tua recensione, il giorno che dici tu. Recensione editoriale firmata, estratto citabile, versione inglese e card per i social.">
+<meta property="og:image" content="https://dualpenbooks.com/img/og-image.jpg">
+<meta property="og:url" content="https://dualpenbooks.com/recensioni/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://dualpenbooks.com/recensioni/">
+<link rel="alternate" hreflang="it" href="https://dualpenbooks.com/recensioni/">
+<link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/book-reviews/">
+<link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/critiques-de-livres/">
+<link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/buchrezensionen/">
+<link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/resenas-de-libros/">
+<link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/recensioni/">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<style>
+  :root{
+    --avorio:#f5f0e4;
+    --carta:#fdfbf5;
+    --inchiostro:#26221c;
+    --oro:#c9a45c;
+    --oro-scuro:#a8823f;
+    --grigio:#6e675c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;background:var(--carta);color:var(--inchiostro);line-height:1.65}
+  .container{max-width:820px;margin:0 auto;padding:0 24px}
+  section{padding:44px 0 8px}
+  h2{font-size:1.55rem;margin-bottom:8px}
+  .filo{width:64px;height:3px;background:var(--oro);margin:14px 0 24px}
+  p{margin-bottom:14px;font-size:1.04rem}
+  a{color:var(--oro-scuro)}
+
+  nav{position:sticky;top:0;background:rgba(245,240,228,.97);border-bottom:1px solid #e6dfd0;z-index:50}
+  nav .dentro{max-width:960px;margin:0 auto;padding:13px 24px;display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center}
+  nav a{color:var(--inchiostro);text-decoration:none;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;font-family:Helvetica,Arial,sans-serif}
+  nav a:hover{color:var(--oro-scuro)}
+  nav a.qui{color:var(--oro-scuro);font-weight:bold}
+
+  .testata{background:var(--avorio);text-align:center;padding:52px 0 44px;border-bottom:1px solid #e6dfd0}
+  .testata h1{font-size:1.9rem;margin-bottom:14px}
+  .testata .risposta{font-size:1.15rem;max-width:680px;margin:0 auto;color:var(--grigio)}
+  .testata .risposta strong{color:var(--inchiostro)}
+
+  .rilievo{background:#fff;border-left:3px solid var(--oro);padding:22px 26px;border-radius:0 6px 6px 0}
+  .rilievo p:last-child{margin-bottom:0}
+
+  ul.ricevi{list-style:none;margin:0}
+  ul.ricevi li{position:relative;padding-left:26px;margin-bottom:14px;font-size:1.04rem}
+  ul.ricevi li:before{content:"";position:absolute;left:0;top:.6em;width:9px;height:9px;background:var(--oro);border-radius:50%}
+
+  ol.passi{margin:0 0 0 20px}
+  ol.passi li{margin-bottom:13px;font-size:1.04rem}
+
+  table{width:100%;border-collapse:collapse;margin-top:10px}
+  th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #e6dfd0;font-size:1rem}
+  th{color:var(--oro-scuro);letter-spacing:.05em;font-size:.85rem;text-transform:uppercase}
+  td.prezzo{white-space:nowrap;font-weight:bold}
+  .nota{font-size:.92rem;color:var(--grigio);font-style:italic;margin-top:14px}
+
+  .regola{margin-bottom:20px}
+  .regola strong{display:block;color:var(--oro-scuro);margin-bottom:4px}
+  .regola p{margin-bottom:0}
+
+  .vetrina{background:var(--avorio);border:1px solid #e6dfd0;border-radius:8px;padding:26px;text-align:center}
+  .vetrina p{margin-bottom:0;color:var(--grigio);font-style:italic}
+
+  .contatti{text-align:center;background:var(--inchiostro);color:var(--avorio);padding:52px 0;margin-top:44px}
+  .contatti h2{color:var(--avorio)}
+  .contatti .filo{margin:14px auto 24px}
+  .contatti a.mail{color:var(--oro);font-size:1.2rem;text-decoration:none}
+  .cta{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:13px 32px;border-radius:6px;text-decoration:none;font-size:1.02rem;letter-spacing:.04em;margin-top:14px}
+  .cta:hover{background:var(--oro-scuro);color:var(--avorio)}
+
+  footer{background:#1b1712;color:#8d8577;text-align:center;padding:22px 0;font-size:.85rem}
+  footer a{color:#8d8577}
+</style>
+</head>
+<body>
+<nav>
+  <div class="dentro">
+    <a href="/">Home</a>
+    <a href="/#servizi">Servizi</a>
+    <a href="/#metodo">Metodo</a>
+    <a href="/#preventivi">Tariffe</a>
+    <a href="/#domande">Domande</a>
+    <a href="/estratti/">Estratti</a>
+    <a class="qui" href="/recensioni/">Recensioni per autori</a>
+    <a href="/per-editori-e-agenzie/">Editori</a>
+    <a href="/#contatti">Contatti</a>
+  </div>
+</nav>
+
+<div class="testata">
+  <div class="container">
+    <h1>La tua recensione, il giorno che dici tu</h1>
+    <p class="risposta"><strong>DualPen Books recensisce i libri degli altri autori.</strong> Sei tu a scegliere entro quando esce: quattro settimane, due o una. Quella data la mettiamo per iscritto e la rispettiamo.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <h2>Perché la data conta più di quanto sembri</h2>
+    <div class="filo"></div>
+    <p>Chiedere oggi una recensione in Italia vuol dire scrivere a un blog, ricevere una risposta gentile e poi aspettare. A volte arriva, a volte no, quasi mai quando ti serve. Non è cattiva volontà: chi recensisce per passione lo fa nei ritagli di tempo e non può promettere niente a nessuno. Lo dice apertamente, ed è onesto da parte sua.</p>
+    <p>Il punto è che tu una data ce l'hai. L'uscita del libro, la fiera, la presentazione, il Natale. Una recensione che arriva tre mesi dopo non è più uno strumento di lancio, è un ricordo.</p>
+    <div class="rilievo">
+      <p>Noi la data la scriviamo nero su bianco. È questo che paghi, ed è l'unica cosa che il prezzo compra: il tempo e il lavoro. Mai il giudizio.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Che cos'è una recensione editoriale</h2>
+    <div class="filo"></div>
+    <p>Non è una stella in più sulla scheda del tuo libro. È un giudizio critico firmato, scritto da chi il libro lo legge per intero e lo valuta come si valuta un libro: struttura, ritmo, personaggi o argomentazione, lingua, tenuta dell'insieme. Elogio dove c'è da elogiare, critica dove serve.</p>
+    <p>Serve a due cose. Ti dà una frase autorevole da mettere dove conta: la sezione Recensioni editoriali della tua scheda Amazon, il tuo sito, la copertina, i social. E dà al lettore che non ti conosce un motivo per fidarsi che non sia la tua parola.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Chi la scrive</h2>
+    <div class="filo"></div>
+    <p>Non un blog di lettori appassionati. Quello è un altro mestiere, rispettabile, e non è il nostro.</p>
+    <p>Siamo uno studio editoriale: 290 edizioni in catalogo, 40 manuali tecnici, una serie pubblicata in 14 lingue, una saga storica in dieci romanzi. Quando leggiamo il tuo libro riconosciamo il lavoro che c'è dentro e quello che manca, perché quel lavoro lo facciamo tutti i giorni. E sappiamo cosa serve a un autore, perché da anni stiamo dall'altra parte del tavolo.</p>
+    <p>I nostri libri li abbiamo messi sotto lo stesso giudizio che chiedi tu: la saga «A Mari Usque Ad Mare» è stata letta e recensita da critici indipendenti di lingua inglese. Le loro recensioni sono pubbliche, <a href="/#critica">sulla home di questo sito</a>, con i voti che hanno dato.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Cosa ricevi</h2>
+    <div class="filo"></div>
+    <ul class="ricevi">
+      <li><strong>La recensione integrale</strong>, pubblicata qui su una pagina tutta sua, con un indirizzo permanente che puoi linkare ovunque e che resta.</li>
+      <li><strong>Un estratto breve già pronto</strong>, da copiare nella sezione Recensioni editoriali della tua scheda Amazon.</li>
+      <li><strong>La stessa recensione in inglese</strong>, tradotta dalla nostra filiera a doppia revisione: la usi sulle edizioni internazionali. In Italia non te la dà nessuno.</li>
+      <li><strong>Una card immagine</strong> con copertina, voto e la frase migliore, pronta per i social e per il tuo sito. È la stessa che facciamo per i nostri libri.</li>
+      <li><strong>Una valutazione in stelle</strong>, da una a cinque.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Come funziona</h2>
+    <div class="filo"></div>
+    <ol class="passi">
+      <li><strong>Ci scrivi.</strong> Titolo, genere, numero di pagine, il link alla scheda se il libro è già in vendita, e il primo capitolo in Word o PDF.</li>
+      <li><strong>Leggiamo il primo capitolo e ti diciamo se lo prendiamo.</strong> Se non fa per noi lo saprai subito, e non hai pagato niente.</li>
+      <li><strong>Se lo prendiamo, scegli la data.</strong> A pagamento avvenuto ci mandi il libro completo in EPUB o PDF.</li>
+      <li><strong>Lo leggiamo per intero.</strong> Poi scriviamo.</li>
+      <li><strong>Pubblichiamo entro la data concordata</strong> e ti mandiamo il link, l'estratto, la traduzione inglese e la card.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Quanto costa</h2>
+    <div class="filo"></div>
+    <table>
+      <tr><th>Recensione pubblicata entro</th><th>Costo</th></tr>
+      <tr><td>4 settimane</td><td class="prezzo">79 €</td></tr>
+      <tr><td>2 settimane</td><td class="prezzo">109 €</td></tr>
+      <tr><td>1 settimana</td><td class="prezzo">149 €</td></tr>
+    </table>
+    <p class="nota">Fino a 500 pagine, circa 120.000 parole. Oltre, chiedici un preventivo. Il prezzo dipende soltanto da quanto in fretta la vuoi, mai dal giudizio che riceverai.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Le regole che ci diamo</h2>
+    <div class="filo"></div>
+    <div class="regola">
+      <strong>Paghi il tempo e il lavoro, non il voto.</strong>
+      <p>Nessuna cifra e nessun accordo possono cambiare quello che scriviamo. Se un servizio ti promette una recensione positiva in cambio di denaro, cambia servizio: ti sta vendendo una cosa che non vale niente e ti sta mettendo nei guai.</p>
+    </div>
+    <div class="regola">
+      <strong>Sotto le quattro stelle, decidi tu.</strong>
+      <p>Se il giudizio è severo te lo mandiamo prima di pubblicarlo e scegli se farlo uscire. Il testo non si tocca mai: cambia solo se esce o se resta nel cassetto.</p>
+    </div>
+    <div class="regola">
+      <strong>Dichiariamo sempre la copia ricevuta.</strong>
+      <p>In fondo a ogni recensione sta scritto che il libro ci è stato mandato dall'autore o dall'editore, e che la recensione è stata commissionata.</p>
+    </div>
+    <div class="regola">
+      <strong>Non recensiamo i libri di casa.</strong>
+      <p>Le nostre edizioni qui dentro non compaiono mai. Le facciamo giudicare da altri, come tutti.</p>
+    </div>
+    <div class="regola">
+      <strong>Non pubblichiamo niente a nostro nome sulla tua scheda Amazon.</strong>
+      <p>Le regole degli store vietano le recensioni di chi ha un interesse economico nel libro, e noi ce l'abbiamo, perché ci hai pagato. L'estratto lo metti tu nella sezione Recensioni editoriali, che è il posto previsto e non viola nulla. Chi ti offre recensioni caricate a nome suo sulla tua scheda ti sta mettendo a rischio il libro e l'account.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Cosa leggiamo e cosa no</h2>
+    <div class="filo"></div>
+    <p>Leggiamo narrativa e saggistica, in italiano e in inglese. Autopubblicati, editi da una casa editrice, ibridi. Anche bozze avanzate, purché già revisionate.</p>
+    <p>Non leggiamo erotica, testi che attaccano persone o gruppi, manoscritti non ancora editati. Non recensiamo audiolibri.</p>
+    <p>Possiamo anche dire di no senza spiegare perché. Un no non è un verdetto sul tuo libro: vuol dire che non è per noi.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Chi firma</h2>
+    <div class="filo"></div>
+    <p>Le recensioni sono firmate <strong>DualPen Books, la redazione</strong>. Non è un modo per nascondersi: è come lavora una redazione. Ogni libro va alla penna più adatta al suo genere, e quello che esce è il giudizio dello studio, non l'umore di una persona.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Le recensioni pubblicate</h2>
+    <div class="filo"></div>
+    <div class="vetrina">
+      <p>Qui sotto usciranno le recensioni, una alla volta. Ognuna avrà la sua pagina e il suo indirizzo, che non cambia più.</p>
+    </div>
+  </div>
+</section>
+
+<div class="contatti">
+  <div class="container">
+    <h2>Parliamone</h2>
+    <div class="filo"></div>
+    <img src="/img/giovanni-casali.jpg" alt="Giovanni Casali" style="width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid var(--oro);margin:0 auto 18px;display:block">
+    <p>Mandaci il primo capitolo e ti diciamo se il tuo libro fa per noi.<br>Ti risponde Giovanni Casali, coordinatore editoriale.</p>
+    <p><a id="wa" href="#" rel="noopener" style="display:inline-block;background:var(--oro);color:var(--inchiostro);padding:12px 30px;border-radius:6px;text-decoration:none;font-size:1rem;letter-spacing:.03em;margin-top:10px">Scrivici su WhatsApp</a></p>
+    <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a></p>
+  </div>
+</div>
+
+<script>
+(function(){
+var n=["3","93","79","39","05","73","6"].join("");
+var l=document.getElementById("wa");
+if(l){l.href="https://wa.me/"+n;}
+})();
+</script>
+
+<footer>
+  <div class="container">© 2026 DualPen Books · Studio editoriale · Toscana · <a href="/">dualpenbooks.com</a> · <a href="/privacy/">Privacy</a></div>
+</footer>
+
+<script src="/js/track.js"></script>
+</body>
+</html>
