@@ -64,11 +64,22 @@
   }
   if (!STRICT) loadGtag();
 
+  // Contatore esatto e anonimo (GoatCounter, senza cookie): conta le visite in automatico.
+  (function loadGoat() {
+    var g = document.createElement("script");
+    g.async = true;
+    g.setAttribute("data-goatcounter", "https://dualpen.goatcounter.com/count");
+    g.src = "https://gc.zgo.at/count.js";
+    document.head.appendChild(g);
+  })();
+
   // 3) Clic sul pulsante WhatsApp: conta la conversione (anonima/modellata in stato negato).
   var wa = document.getElementById("wa");
   if (wa) {
     wa.addEventListener("click", function () {
-      if (STRICT) return; // in strict, senza consenso non si invia
+      // GoatCounter: conteggio esatto e anonimo del clic, indipendente da Google.
+      if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "wa-click", title: "Clic WhatsApp", event: true });
+      if (STRICT) return; // in strict, senza consenso non si invia a Google
       if (!loaded) loadGtag();
       gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
     });
