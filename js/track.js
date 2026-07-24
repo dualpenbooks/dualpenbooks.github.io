@@ -1,39 +1,35 @@
-/* DualPen Books - misurazione clic WhatsApp con MODALITA' CONSENSO di Google (Consent Mode v2).
-   PROPOSTA da rivedere col legale prima di pubblicare. Non ancora online.
+/* DualPen Books - misurazione visite e clic WhatsApp con MODALITA' CONSENSO di Google (Consent Mode v2).
+   ONLINE. Impostazione decisa da Stefano il 24/07/2026 dopo parere legale (rischio giudicato bassissimo).
 
-   Differenza rispetto alla versione attuale:
-   - PRIMA: il tag Google si caricava SOLO dopo "Accetto". Quasi nessuno accetta,
-     quindi non veniva misurato quasi niente (contatore fermo a 0 con 160 visite).
-   - ADESSO: il tag si carica sempre, ma parte in stato "consenso NEGATO" (default).
-     In stato negato Google NON scrive cookie e NON usa identificatori: manda solo
-     un segnale anonimo e aggregato (conversione "modellata"). Se l'utente clicca
-     "Accetto", il consenso passa a "concesso" e la misura diventa piena (con cookie).
-   - Il clic sul pulsante WhatsApp viene quindi contato in entrambi gli stati.
+   COME FUNZIONA ORA (STRICT = false):
+   - Il tag Google si carica SEMPRE, ma parte in stato "consenso NEGATO" (default).
+     In stato negato NON scrive cookie e NON usa identificatori: invia a Google solo
+     un segnale anonimo e aggregato. Cosi' le visite e i clic sul pulsante WhatsApp
+     vengono misurati per TUTTI, non solo per chi accetta, e Google Ads riceve il
+     segnale di conversione (utile allo Smart Bidding).
+   - Il banner NON e' piu' un cancello "accetti / rifiuti": e' un semplice avviso
+     informativo che si chiude con "OK". Nessun cookie viene comunque scritto.
 
-   >>> PUNTO PER IL LEGALE: in stato "negato" il tag invia comunque a Google un segnale
-       anonimo e senza cookie. E' il meccanismo standard della modalita' consenso, ma
-       e' anche il punto che va approvato. Se il legale preferisce "nessun dato a Google
-       finche' l'utente non accetta", mettere STRICT = true qui sotto: in quel caso in
-       stato negato non parte NULLA (identico alla filosofia attuale, ma col tag gia'
-       pronto a scattare appena si accetta). */
+   PER TORNARE INDIETRO: rimettere STRICT = true qui sotto -> in stato negato non parte
+   NULLA verso Google finche' l'utente non da' un consenso esplicito. */
 
 (function () {
   var CID  = "AW-18323732686";
   var GA4  = "G-K3HBMFHEZS";
   var SEND = "AW-18323732686/M_s0CPq5_9McEM7xt6FE";
-  var KEY  = "dp_consent";
+  var KEY  = "dp_notice";
 
-  // Se true: in stato "negato" non si invia NULLA a Google (scelta piu' prudente).
-  // Se false: modalita' consenso piena con conversioni modellate anche senza consenso.
-  var STRICT = true;
+  // false: misura anonima (senza cookie) per tutti, banner informativo. [impostazione attuale]
+  // true:  nessun invio a Google senza consenso esplicito (banner a scelta).
+  var STRICT = false;
 
   var lang = (document.documentElement.lang || "it").slice(0, 2).toLowerCase();
   var TXT = {
-    it: { msg: "Usiamo i cookie di Google per misurare le visite e i clic sul pulsante WhatsApp. Li accetti?", ok: "Accetto", no: "Rifiuto", more: "Privacy", priv: "/privacy/" },
-    en: { msg: "We use Google cookies to measure visits and clicks on the WhatsApp button. Do you accept?", ok: "Accept", no: "Decline", more: "Privacy", priv: "/en/privacy/" },
-    fr: { msg: "Nous utilisons des cookies Google pour mesurer les visites et les clics sur le bouton WhatsApp. Acceptez-vous ?", ok: "Accepter", no: "Refuser", more: "Confidentialité", priv: "/fr/confidentialite/" },
-    de: { msg: "Wir verwenden Google-Cookies, um Besuche und Klicks auf die WhatsApp-Schaltfläche zu messen. Sind Sie einverstanden?", ok: "Akzeptieren", no: "Ablehnen", more: "Datenschutz", priv: "/de/datenschutz/" },
-    es: { msg: "Usamos cookies de Google para medir las visitas y los clics en el botón de WhatsApp. ¿Acepta?", ok: "Aceptar", no: "Rechazar", more: "Privacidad", priv: "/es/privacidad/" }
+    it: { msg: "Misuriamo in forma anonima le visite e i clic sul pulsante WhatsApp, senza cookie di profilazione.", ok: "OK", more: "Privacy", priv: "/privacy/" },
+    en: { msg: "We anonymously measure visits and clicks on the WhatsApp button, with no profiling cookies.", ok: "OK", more: "Privacy", priv: "/en/privacy/" },
+    fr: { msg: "Nous mesurons de façon anonyme les visites et les clics sur le bouton WhatsApp, sans cookies de profilage.", ok: "OK", more: "Confidentialité", priv: "/fr/confidentialite/" },
+    de: { msg: "Wir messen anonym die Besuche und Klicks auf die WhatsApp-Schaltfläche, ohne Profiling-Cookies.", ok: "OK", more: "Datenschutz", priv: "/de/datenschutz/" },
+    es: { msg: "Medimos de forma anónima las visitas y los clics en el botón de WhatsApp, sin cookies de perfilado.", ok: "OK", more: "Privacidad", priv: "/es/privacidad/" }
   };
   var t = TXT[lang] || TXT.it;
 
@@ -41,22 +37,19 @@
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
 
-  function readConsent() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
-  function writeConsent(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function noticeShown() { try { return localStorage.getItem(KEY) === "1"; } catch (e) { return false; } }
+  function markNotice() { try { localStorage.setItem(KEY, "1"); } catch (e) {} }
 
-  var saved = readConsent(); // "yes" | "no" | null
-  var granted = (saved === "yes");
-
-  // 1) Stato di consenso DI DEFAULT, impostato PRIMA di caricare il tag.
+  // 1) Stato di consenso DI DEFAULT (negato): niente cookie, solo segnale anonimo/aggregato.
   gtag("consent", "default", {
-    ad_storage:         granted ? "granted" : "denied",
-    ad_user_data:       granted ? "granted" : "denied",
-    ad_personalization: granted ? "granted" : "denied",
-    analytics_storage:  granted ? "granted" : "denied",
+    ad_storage:         "denied",
+    ad_user_data:       "denied",
+    ad_personalization: "denied",
+    analytics_storage:  "denied",
     wait_for_update:    500
   });
 
-  // 2) In modalita' STRICT non si carica il tag finche' non c'e' consenso esplicito.
+  // 2) Carica il tag Google. In STRICT non si carica finche' non c'e' consenso esplicito.
   var loaded = false;
   function loadGtag() {
     if (loaded) return;
@@ -69,38 +62,30 @@
     gtag("config", CID, { url_passthrough: true });
     gtag("config", GA4);
   }
-  if (!STRICT || granted) loadGtag();
+  if (!STRICT) loadGtag();
 
-  // 3) Clic sul pulsante WhatsApp: conta la conversione (piena se consenso, modellata se negato).
+  // 3) Clic sul pulsante WhatsApp: conta la conversione (anonima/modellata in stato negato).
   var wa = document.getElementById("wa");
   if (wa) {
     wa.addEventListener("click", function () {
-      if (STRICT && readConsent() !== "yes") return; // in strict, senza consenso non si invia
+      if (STRICT) return; // in strict, senza consenso non si invia
       if (!loaded) loadGtag();
       gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
     });
   }
 
-  // 4) Banner: compare solo se l'utente non ha ancora scelto.
-  if (!saved) showBanner();
+  // 4) Avviso informativo: compare una sola volta, si chiude con OK. Nessun cookie coinvolto.
+  if (!noticeShown()) showNotice();
 
-  function grantAll() {
-    gtag("consent", "update", {
-      ad_storage: "granted", ad_user_data: "granted",
-      ad_personalization: "granted", analytics_storage: "granted"
-    });
-    loadGtag();
-  }
-
-  function showBanner() {
+  function showNotice() {
     var bar = document.createElement("div");
-    bar.setAttribute("role", "dialog");
+    bar.setAttribute("role", "note");
     bar.setAttribute("aria-live", "polite");
     bar.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#26221c;color:#f5f0e4;padding:14px 18px;font-family:Helvetica,Arial,sans-serif;font-size:.92rem;line-height:1.4;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:center;box-shadow:0 -2px 12px rgba(0,0,0,.25)";
 
     var msg = document.createElement("span");
     msg.textContent = t.msg;
-    msg.style.cssText = "max-width:620px";
+    msg.style.cssText = "max-width:660px";
 
     var link = document.createElement("a");
     link.href = t.priv;
@@ -112,18 +97,11 @@
     ok.textContent = t.ok;
     ok.style.cssText = "background:#c9a45c;color:#26221c;border:0;border-radius:5px;padding:9px 22px;font-size:.92rem;font-weight:bold;cursor:pointer";
 
-    var no = document.createElement("button");
-    no.type = "button";
-    no.textContent = t.no;
-    no.style.cssText = "background:transparent;color:#f5f0e4;border:1px solid #6e675c;border-radius:5px;padding:9px 22px;font-size:.92rem;cursor:pointer";
-
-    ok.addEventListener("click", function () { writeConsent("yes"); grantAll(); bar.parentNode && bar.parentNode.removeChild(bar); });
-    no.addEventListener("click", function () { writeConsent("no"); bar.parentNode && bar.parentNode.removeChild(bar); });
+    ok.addEventListener("click", function () { markNotice(); bar.parentNode && bar.parentNode.removeChild(bar); });
 
     bar.appendChild(msg);
     bar.appendChild(link);
     bar.appendChild(ok);
-    bar.appendChild(no);
     (document.body || document.documentElement).appendChild(bar);
   }
 })();
