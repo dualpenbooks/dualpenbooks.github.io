@@ -25,11 +25,11 @@
 
   var lang = (document.documentElement.lang || "it").slice(0, 2).toLowerCase();
   var TXT = {
-    it: { msg: "Misuriamo in forma anonima le visite e i clic sul pulsante WhatsApp, senza cookie di profilazione.", ok: "OK", more: "Privacy", priv: "/privacy/" },
-    en: { msg: "We anonymously measure visits and clicks on the WhatsApp button, with no profiling cookies.", ok: "OK", more: "Privacy", priv: "/en/privacy/" },
-    fr: { msg: "Nous mesurons de façon anonyme les visites et les clics sur le bouton WhatsApp, sans cookies de profilage.", ok: "OK", more: "Confidentialité", priv: "/fr/confidentialite/" },
-    de: { msg: "Wir messen anonym die Besuche und Klicks auf die WhatsApp-Schaltfläche, ohne Profiling-Cookies.", ok: "OK", more: "Datenschutz", priv: "/de/datenschutz/" },
-    es: { msg: "Medimos de forma anónima las visitas y los clics en el botón de WhatsApp, sin cookies de perfilado.", ok: "OK", more: "Privacidad", priv: "/es/privacidad/" }
+    it: { msg: "Misuriamo in forma anonima le visite e i clic sui pulsanti di contatto, senza cookie di profilazione.", ok: "OK", more: "Privacy", priv: "/privacy/" },
+    en: { msg: "We anonymously measure visits and clicks on the contact buttons, with no profiling cookies.", ok: "OK", more: "Privacy", priv: "/en/privacy/" },
+    fr: { msg: "Nous mesurons de façon anonyme les visites et les clics sur les boutons de contact, sans cookies de profilage.", ok: "OK", more: "Confidentialité", priv: "/fr/confidentialite/" },
+    de: { msg: "Wir messen anonym die Besuche und Klicks auf die Kontakt-Schaltflächen, ohne Profiling-Cookies.", ok: "OK", more: "Datenschutz", priv: "/de/datenschutz/" },
+    es: { msg: "Medimos de forma anónima las visitas y los clics en los botones de contacto, sin cookies de perfilado.", ok: "OK", more: "Privacidad", priv: "/es/privacidad/" }
   };
   var t = TXT[lang] || TXT.it;
 
@@ -73,17 +73,30 @@
     document.head.appendChild(g);
   })();
 
-  // 3) Clic sul pulsante WhatsApp: conta la conversione (anonima/modellata in stato negato).
+  // 3) Clic di contatto: conta la conversione (anonima/modellata in stato negato).
+  //    Due canali separati in GoatCounter (wa-click e mail-click) cosi' si vede QUALE
+  //    canale usano; verso Google Ads vanno entrambi come la stessa conversione "Contatto",
+  //    perche' allo Smart Bidding interessa il contatto, non da dove arriva.
+  //    L'email serve soprattutto sui mercati anglofoni, dove WhatsApp si usa poco
+  //    (aggiunta del 25/07/2026, su richiesta di Stefano, insieme alla campagna EN).
+  function segnalaContatto(percorso, titolo) {
+    // GoatCounter: conteggio esatto e anonimo del clic, indipendente da Google.
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: percorso, title: titolo, event: true });
+    if (STRICT) return; // in strict, senza consenso non si invia a Google
+    if (!loaded) loadGtag();
+    gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
+  }
+
   var wa = document.getElementById("wa");
   if (wa) {
-    wa.addEventListener("click", function () {
-      // GoatCounter: conteggio esatto e anonimo del clic, indipendente da Google.
-      if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "wa-click", title: "Clic WhatsApp", event: true });
-      if (STRICT) return; // in strict, senza consenso non si invia a Google
-      if (!loaded) loadGtag();
-      gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
-    });
+    wa.addEventListener("click", function () { segnalaContatto("wa-click", "Clic WhatsApp"); });
   }
+
+  // Qualunque link mailto della pagina, ovunque si trovi.
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href^="mailto:"]') : null;
+    if (a) segnalaContatto("mail-click", "Clic email");
+  }, true);
 
   // 4) Avviso informativo: compare una sola volta, si chiude con OK. Nessun cookie coinvolto.
   if (!noticeShown()) showNotice();
