@@ -87,10 +87,15 @@
     gtag("event", "conversion", { send_to: SEND, value: 1.0, currency: "EUR" });
   }
 
-  var wa = document.getElementById("wa");
-  if (wa) {
-    wa.addEventListener("click", function () { segnalaContatto("wa-click", "Clic WhatsApp"); });
-  }
+  // Qualunque bottone WhatsApp della pagina, ovunque si trovi: quello in fondo (id wa),
+  // quello fisso in basso sul telefono (id wa2) e quello a meta pagina (id wa3).
+  // Delegato sul documento, cosi' un bottone aggiunto domani viene contato senza
+  // toccare questo file (26/07/2026: il vecchio aggancio al solo id "wa" avrebbe
+  // lasciato fuori i due bottoni nuovi, cioe' proprio quelli piu' cliccati).
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href*="wa.me/"]') : null;
+    if (a) segnalaContatto("wa-click", "Clic WhatsApp");
+  }, true);
 
   // Qualunque link mailto della pagina, ovunque si trovi.
   document.addEventListener("click", function (e) {
