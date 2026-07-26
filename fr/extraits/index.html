@@ -64,7 +64,7 @@
   footer{background:#1b1712;color:#8d8577;text-align:center;padding:22px 0;font-size:.85rem}
   footer a{color:#8d8577}
 </style>
-<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style></head>
+<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:99;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 10px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}body{padding-bottom:86px}}</style></head>
 <body>
 <nav>
   <div class="dentro">
@@ -76,7 +76,7 @@
     <a href="/fr/extraits/">Extraits</a>
     <a href="/fr/pour-editeurs-et-agences/">Éditeurs</a>
     <a href="/fr/critiques-de-livres/">Critiques pour auteurs</a>
-    <a href="/fr/#contatti">Contact</a>
+    <a href="#contatti">Contact</a>
     <span style="margin-left:10px"><a href="/estratti/">IT</a> <a href="/en/excerpts/">EN</a> <a href="/fr/extraits/" style="color:var(--oro-scuro);font-weight:bold">FR</a> <a href="/de/leseproben/">DE</a> <a href="/es/fragmentos/">ES</a></span>
   </div>
 </nav>
@@ -159,7 +159,7 @@
   </div>
 </section>
 
-<div class="contatti">
+<div class="contatti" id="contatti">
   <div class="container">
     <h2>Parlons-en</h2>
     <div class="filo"></div>
@@ -167,7 +167,7 @@
     <p>Quelque chose que vous venez de lire vous a parlé ?<br>Racontez-nous votre projet en quelques lignes. L'entretien est gratuit et sans engagement.</p>
     <p><a id="wa" href="#" rel="noopener" style="display:inline-block;background:var(--oro);color:var(--inchiostro);padding:12px 30px;border-radius:6px;text-decoration:none;font-size:1rem;letter-spacing:.03em;margin-top:10px">Écrivez-nous sur WhatsApp</a></p>
     <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a><br>Giovanni Casali, coordinateur éditorial, vous répondra.</p>
-    <a class="cta" href="/fr/#contatti">Premier entretien gratuit</a>
+    <a class="cta" href="#contatti">Premier entretien gratuit</a>
   </div>
 </div>
 
@@ -177,6 +177,8 @@ var n=["3","93","79","39","05","73","6"].join("");
 var m=encodeURIComponent("Bonjour, je voudrais des informations pour un projet de livre.");
 var l=document.getElementById("wa");
 if(l){l.href="https://wa.me/"+n;}
+var l2=document.getElementById("wa2");
+if(l2){l2.href="https://wa.me/"+n;}
 })();
 </script>
 
@@ -185,5 +187,6 @@ if(l){l.href="https://wa.me/"+n;}
 </footer>
 
 <script src="/js/track.js"></script>
+<a id="wa2" class="wa-fisso" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a>
 </body>
 </html>

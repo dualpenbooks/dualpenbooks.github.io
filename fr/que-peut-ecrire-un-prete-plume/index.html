@@ -40,7 +40,7 @@ p{font-size:1.15rem}
   ]
 }
 </script>
-<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style></head>
+<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:99;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 10px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}body{padding-bottom:86px}}.wa-meta{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:13px 30px;border-radius:6px;text-decoration:none;font-size:1.05rem;letter-spacing:.03em;font-family:Helvetica,Arial,sans-serif}.wa-meta:hover{background:var(--oro-scuro);color:var(--avorio)}.blocco-meta{text-align:center;margin:6px 0 34px}</style></head>
 <body>
 <nav>
   <div class="dentro">
@@ -51,7 +51,7 @@ p{font-size:1.15rem}
     <a href="/fr/#domande">Questions</a>
     <a href="/fr/pour-editeurs-et-agences/">Éditeurs</a>
     <a href="/fr/critiques-de-livres/">Critiques pour auteurs</a>
-    <a href="/fr/#contatti">Contact</a>
+    <a href="#contatti">Contact</a>
     <span style="margin-left:10px"><a href="/cosa-puo-scrivere-un-ghostwriter/">IT</a> <a href="/en/what-can-a-ghostwriter-write/">EN</a> <a href="/fr/que-peut-ecrire-un-prete-plume/" style="color:var(--oro-scuro);font-weight:bold">FR</a> <a href="/de/was-kann-ein-ghostwriter-schreiben/">DE</a> <a href="/es/que-puede-escribir-un-ghostwriter/">ES</a></span>
   </div>
 </nav>
@@ -71,6 +71,8 @@ p{font-size:1.15rem}
     <p>Autant le dire tout de suite : personne n'écrit bien sur ce qu'il ne comprend pas, et celui qui promet n'importe quel sujet à la légère mérite la méfiance. Un livre sérieux sur un sujet sérieux naît d'une seule façon : votre compétence, nos questions, la recherche faite comme il faut. Avant d'écrire, on étudie : on lit les sources, on interroge ceux qui savent, on vérifie les données une à une. Puis le texte passe de main en main, de la rédaction à la révision à la correction, jusqu'à ce qu'il tienne. C'est un travail d'atelier, avec plusieurs yeux et plusieurs passages : le nom sur la couverture reste unique, le vôtre.</p>
   </div>
 </section>
+<p style="text-align:center;margin:34px 0 6px"><a id="wa3" class="wa" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a></p>
+
 
 <section>
   <div class="container">
@@ -132,7 +134,7 @@ p{font-size:1.15rem}
   </div>
 </section>
 
-<div class="contatti">
+<div class="contatti" id="contatti">
   <div class="container">
     <h2>Parlons-en</h2>
     <div class="filo"></div>
@@ -150,6 +152,10 @@ var n=["3","93","79","39","05","73","6"].join("");
 var m=encodeURIComponent("Bonjour, je voudrais des informations pour un projet de livre.");
 var l=document.getElementById("wa");
 if(l){l.href="https://wa.me/"+n;}
+var l2=document.getElementById("wa2");
+if(l2){l2.href="https://wa.me/"+n;}
+var l3=document.getElementById("wa3");
+if(l3){l3.href="https://wa.me/"+n;}
 })();
 </script>
 
@@ -158,5 +164,6 @@ if(l){l.href="https://wa.me/"+n;}
 </footer>
 
 <script src="/js/track.js"></script>
+<a id="wa2" class="wa-fisso" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a>
 </body>
 </html>

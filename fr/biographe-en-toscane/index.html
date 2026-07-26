@@ -68,7 +68,7 @@ p{font-size:1.15rem}
   ]
 }
 </script>
-<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style></head>
+<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:99;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 10px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}body{padding-bottom:86px}}.wa-meta{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:13px 30px;border-radius:6px;text-decoration:none;font-size:1.05rem;letter-spacing:.03em;font-family:Helvetica,Arial,sans-serif}.wa-meta:hover{background:var(--oro-scuro);color:var(--avorio)}.blocco-meta{text-align:center;margin:6px 0 34px}</style></head>
 <body>
 <nav>
   <div class="dentro">
@@ -79,7 +79,7 @@ p{font-size:1.15rem}
     <a href="/fr/#domande">Questions</a>
     <a href="/fr/pour-editeurs-et-agences/">Éditeurs</a>
     <a href="/fr/critiques-de-livres/">Critiques pour auteurs</a>
-    <a href="/fr/#contatti">Contact</a>
+    <a href="#contatti">Contact</a>
     <span style="margin-left:10px"><a href="/biografo-in-toscana/">IT</a> <a href="/en/biographer-in-tuscany/">EN</a> <a href="/fr/biographe-en-toscane/" style="color:var(--oro-scuro);font-weight:bold">FR</a> <a href="/de/biograf-in-der-toskana/">DE</a> <a href="/es/biografo-en-la-toscana/">ES</a></span>
   </div>
 </nav>
@@ -99,6 +99,8 @@ p{font-size:1.15rem}
     <p>Une vie toscane est faite de fermes et d'ateliers, de familles qui se connaissent depuis trois générations, de mots qui ne se disent qu'ici. Celui qui écrit en connaissant les lieux n'a pas besoin qu'on les lui explique : il les reconnaît, et l'histoire sonne juste dès la première page. C'est la différence entre décrire une maison de campagne et y avoir passé ses étés.</p>
   </div>
 </section>
+<p style="text-align:center;margin:34px 0 6px"><a id="wa3" class="wa" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a></p>
+
 
 <section>
   <div class="container">
@@ -144,7 +146,7 @@ p{font-size:1.15rem}
   </div>
 </section>
 
-<div class="contatti">
+<div class="contatti" id="contatti">
   <div class="container">
     <h2>Parlons-en</h2>
     <div class="filo"></div>
@@ -162,6 +164,10 @@ var n=["3","93","79","39","05","73","6"].join("");
 var m=encodeURIComponent("Bonjour, je voudrais des informations pour un projet de livre.");
 var l=document.getElementById("wa");
 if(l){l.href="https://wa.me/"+n;}
+var l2=document.getElementById("wa2");
+if(l2){l2.href="https://wa.me/"+n;}
+var l3=document.getElementById("wa3");
+if(l3){l3.href="https://wa.me/"+n;}
 })();
 </script>
 
@@ -170,5 +176,6 @@ if(l){l.href="https://wa.me/"+n;}
 </footer>
 
 <script src="/js/track.js"></script>
+<a id="wa2" class="wa-fisso" href="#" rel="noopener">Écrivez-nous sur WhatsApp</a>
 </body>
 </html>

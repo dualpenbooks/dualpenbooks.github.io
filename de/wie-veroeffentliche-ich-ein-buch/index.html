@@ -68,7 +68,7 @@ p{font-size:1.15rem}
   ]
 }
 </script>
-<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style></head>
+<style id="langfix">nav .dentro{position:relative;padding-right:176px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:99;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 10px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}body{padding-bottom:86px}}.wa-meta{display:inline-block;background:var(--oro);color:var(--inchiostro);padding:13px 30px;border-radius:6px;text-decoration:none;font-size:1.05rem;letter-spacing:.03em;font-family:Helvetica,Arial,sans-serif}.wa-meta:hover{background:var(--oro-scuro);color:var(--avorio)}.blocco-meta{text-align:center;margin:6px 0 34px}</style></head>
 <body>
 <nav>
   <div class="dentro">
@@ -79,7 +79,7 @@ p{font-size:1.15rem}
     <a href="/de/#domande">Fragen</a>
     <a href="/de/fuer-verlage-und-agenturen/">Verlage</a>
     <a href="/de/buchrezensionen/">Rezensionen für Autoren</a>
-    <a href="/de/#contatti">Kontakt</a>
+    <a href="#contatti">Kontakt</a>
     <span style="margin-left:10px"><a href="/come-pubblicare-un-libro/">IT</a> <a href="/en/how-to-publish-a-book/">EN</a> <a href="/fr/comment-publier-un-livre/">FR</a> <a href="/de/wie-veroeffentliche-ich-ein-buch/" style="color:var(--oro-scuro);font-weight:bold">DE</a> <a href="/es/como-publicar-un-libro/">ES</a></span>
   </div>
 </nav>
@@ -99,6 +99,8 @@ p{font-size:1.15rem}
     <p>Das sind zwei verschiedene Dinge. Ein geschriebener Text ist bei der letzten Zeile angekommen; ein fertiger Text hat ein Auge passiert, das nicht Ihres ist. Es braucht zwei getrennte Durchgänge: das Lektorat, das auf Aufbau, Rhythmus und tote Stellen schaut, und das Korrektorat, das Tippfehler und Versehen entfernt. Nach dem Druck geht beides nicht mehr, und ein Cover neu zu machen kostet weniger, als ein Buch neu zu machen.</p>
   </div>
 </section>
+<p style="text-align:center;margin:34px 0 6px"><a id="wa3" class="wa" href="#" rel="noopener">Schreiben Sie uns auf WhatsApp</a></p>
+
 
 <section>
   <div class="container">
@@ -172,7 +174,7 @@ p{font-size:1.15rem}
   </div>
 </section>
 
-<div class="contatti">
+<div class="contatti" id="contatti">
   <div class="container">
     <h2>Sprechen wir darüber</h2>
     <div class="filo"></div>
@@ -189,6 +191,10 @@ p{font-size:1.15rem}
 var n=["3","93","79","39","05","73","6"].join("");
 var l=document.getElementById("wa");
 if(l){l.href="https://wa.me/"+n;}
+var l2=document.getElementById("wa2");
+if(l2){l2.href="https://wa.me/"+n;}
+var l3=document.getElementById("wa3");
+if(l3){l3.href="https://wa.me/"+n;}
 })();
 </script>
 
@@ -197,5 +203,6 @@ if(l){l.href="https://wa.me/"+n;}
 </footer>
 
 <script src="/js/track.js"></script>
+<a id="wa2" class="wa-fisso" href="#" rel="noopener">Schreiben Sie uns auf WhatsApp</a>
 </body>
 </html>
