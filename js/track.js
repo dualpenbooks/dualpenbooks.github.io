@@ -103,6 +103,14 @@
     if (a) segnalaContatto("mail-click", "Clic email");
   }, true);
 
+  // Qualunque link di CHIAMATA della pagina (28/07/2026: aggiunto il pulsante
+  // "Chiama" accanto a quello WhatsApp nella barra fissa del telefono).
+  // Canale separato in GoatCounter: tel-click.
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href^="tel:"]') : null;
+    if (a) segnalaContatto("tel-click", "Clic telefono");
+  }, true);
+
   // 4) Avviso informativo: compare una sola volta, si chiude con OK. Nessun cookie coinvolto.
   if (!noticeShown()) showNotice();
 
@@ -126,11 +134,27 @@
     ok.textContent = t.ok;
     ok.style.cssText = "background:#c9a45c;color:#26221c;border:0;border-radius:5px;padding:9px 22px;font-size:.92rem;font-weight:bold;cursor:pointer";
 
-    ok.addEventListener("click", function () { markNotice(); bar.parentNode && bar.parentNode.removeChild(bar); });
+    ok.addEventListener("click", function () { markNotice(); bar.parentNode && bar.parentNode.removeChild(bar); alzaBarraContatti(null); });
 
     bar.appendChild(msg);
     bar.appendChild(link);
     bar.appendChild(ok);
     (document.body || document.documentElement).appendChild(bar);
+    alzaBarraContatti(bar);
+    window.addEventListener("resize", function () { alzaBarraContatti(bar); });
+  }
+
+  // L'avviso sta in fondo allo schermo e COPRIVA la barra fissa dei contatti.
+  // Misurato il 28/07/2026 su telefono: avviso z-index 99999 da 699 a 812 px,
+  // barra contatti z-index 99 da 743 a 800 px. Il pulsante era invisibile e il
+  // dito, dove doveva esserci il pulsante, finiva sul tasto OK dell'avviso.
+  // Finche' l'avviso e' a video la barra si alza sopra di lui; premuto OK torna giu'.
+  function alzaBarraContatti(bar) {
+    var giu = (bar && bar.parentNode) ? bar.offsetHeight + 12 : 12;
+    var f = document.querySelectorAll(".wa-fisso");
+    for (var i = 0; i < f.length; i++) {
+      if (window.getComputedStyle(f[i]).display === "none") continue;
+      f[i].style.bottom = giu + "px";
+    }
   }
 })();
