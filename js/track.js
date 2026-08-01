@@ -111,6 +111,13 @@
     if (a) segnalaContatto("tel-click", "Clic telefono");
   }, true);
 
+
+  // Modulo di contatto (01/08/2026): quarto canale, form-send. Il modulo emette
+  // l'evento "dualpen:modulo" solo a invio riuscito, cosi' non si contano i tentativi falliti.
+  document.addEventListener("dualpen:modulo", function () {
+    segnalaContatto("form-send", "Modulo inviato");
+  });
+
   // 4) Avviso informativo: compare una sola volta, si chiude con OK. Nessun cookie coinvolto.
   if (!noticeShown()) showNotice();
 

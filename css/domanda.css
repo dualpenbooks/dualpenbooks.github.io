@@ -41,3 +41,25 @@ td.prezzo{white-space:nowrap;font-weight:bold}
 .cta:hover{background:var(--oro-scuro);color:var(--avorio)}
 footer{background:#1b1712;color:#8d8577;text-align:center;padding:22px 0;font-size:.85rem}
 footer a{color:#8d8577}
+
+/* Modulo di contatto (01/08/2026): terza via accanto a WhatsApp e telefono,
+   per chi non se la sente di parlare subito. I messaggi arrivano a info@dualpenbooks.com. */
+.modulo{max-width:520px;margin:0 auto 26px;text-align:left;font-family:Helvetica,Arial,sans-serif}
+.modulo .riga{margin-bottom:13px}
+.modulo label{display:block;font-size:.93rem;color:var(--grigio);margin-bottom:5px;letter-spacing:.02em}
+.modulo .facolt{color:var(--grigio);opacity:.75}
+.modulo input[type=text],.modulo input[type=email],.modulo input[type=tel],.modulo textarea{
+  width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d8cfb8;border-radius:6px;
+  background:var(--carta);color:var(--inchiostro);font-size:1rem;font-family:inherit}
+.modulo input:focus,.modulo textarea:focus{outline:none;border-color:var(--oro);box-shadow:0 0 0 3px rgba(201,164,92,.22)}
+.modulo textarea{resize:vertical}
+
+.modulo button{display:block;width:100%;background:var(--oro);color:var(--inchiostro);border:0;
+  padding:14px 20px;border-radius:6px;font-size:1.05rem;letter-spacing:.03em;cursor:pointer;font-family:inherit}
+.modulo button:hover{background:var(--oro-scuro);color:var(--avorio)}
+.modulo button[disabled]{opacity:.6;cursor:default}
+.modulo .esito{margin:12px 0 0;font-size:.95rem;min-height:1.2em}
+.modulo .esito.ok{color:#2f6b3a}
+.modulo .esito.ko{color:#9b3226}
+.modulo .notina{margin:10px 0 0;font-size:.82rem;color:var(--grigio);opacity:.85;text-align:center}
+.oppure{margin:0 0 14px;font-size:.95rem;color:var(--grigio);letter-spacing:.04em;text-transform:uppercase}
