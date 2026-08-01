@@ -1,5 +1,5 @@
 /* DualPen Books - misurazione visite e clic WhatsApp con MODALITA' CONSENSO di Google (Consent Mode v2).
-   ONLINE. Impostazione decisa da Stefano il 24/07/2026 dopo parere legale (rischio giudicato bassissimo).
+   ONLINE. Impostazione decisa il 24/07/2026 dopo parere legale (rischio giudicato bassissimo).
 
    COME FUNZIONA ORA (STRICT = false):
    - Il tag Google si carica SEMPRE, ma parte in stato "consenso NEGATO" (default).
@@ -78,7 +78,7 @@
   //    canale usano; verso Google Ads vanno entrambi come la stessa conversione "Contatto",
   //    perche' allo Smart Bidding interessa il contatto, non da dove arriva.
   //    L'email serve soprattutto sui mercati anglofoni, dove WhatsApp si usa poco
-  //    (aggiunta del 25/07/2026, su richiesta di Stefano, insieme alla campagna EN).
+  //    (aggiunta del 25/07/2026, insieme alla campagna EN).
   function segnalaContatto(percorso, titolo) {
     // GoatCounter: conteggio esatto e anonimo del clic, indipendente da Google.
     if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: percorso, title: titolo, event: true });
