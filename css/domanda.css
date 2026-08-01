@@ -15,7 +15,7 @@ h2{font-size:1.55rem;margin-bottom:8px}
 p{margin-bottom:14px;font-size:1.04rem}
 a{color:var(--oro-scuro)}
 nav{position:sticky;top:0;background:rgba(245,240,228,.97);border-bottom:1px solid #e6dfd0;z-index:50}
-nav .dentro{max-width:960px;margin:0 auto;padding:13px 24px;display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center}
+nav .dentro{max-width:1240px;margin:0 auto;padding:13px 24px;display:flex;flex-wrap:wrap;gap:8px 15px;justify-content:center}
 nav a{color:var(--inchiostro);text-decoration:none;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;font-family:Helvetica,Arial,sans-serif}
 nav a:hover{color:var(--oro-scuro)}
 .testata{background:var(--avorio);text-align:center;padding:52px 0 44px;border-bottom:1px solid #e6dfd0}
