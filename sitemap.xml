@@ -1067,14 +1067,102 @@
   </url>
   <url>
     <loc>https://dualpenbooks.com/musica/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/songwriting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/ecriture-de-chansons/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/songtexte/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/letras-de-canciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/songwriting/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/songwriting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/ecriture-de-chansons/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/songtexte/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/letras-de-canciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/ecriture-de-chansons/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/songwriting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/ecriture-de-chansons/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/songtexte/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/letras-de-canciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/songtexte/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/songwriting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/ecriture-de-chansons/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/songtexte/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/letras-de-canciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/letras-de-canciones/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/songwriting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/ecriture-de-chansons/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/songtexte/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/letras-de-canciones/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
   </url>
   <url>
     <loc>https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/</loc>
     <lastmod>2026-08-02</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/how-much-does-it-cost-to-have-a-song-written/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/combien-coute-faire-ecrire-une-chanson/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/was-kostet-es-einen-songtext-schreiben-zu-lassen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/cuanto-cuesta-encargar-una-cancion/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/quanto-costa-far-scrivere-una-canzone/"/>
   </url>
 </urlset>
