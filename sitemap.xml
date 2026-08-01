@@ -1065,4 +1065,10 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/como-escribir-un-libro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/come-scrivere-un-libro/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/musica/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/musica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/musica/"/>
+  </url>
 </urlset>
