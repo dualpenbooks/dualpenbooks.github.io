@@ -257,7 +257,7 @@
     <p class="notina">Inviando il modulo accetti l&#39;<a href="/privacy/">informativa privacy</a>.</p>
 <p class="esito" id="m-esito" role="status"></p>
     </form>
-    <p class="oppure">oppure, se preferisce:</p>
+    <p class="oppure">oppure, se preferisci:</p>
     <p><a id="wa" class="wa" href="#" rel="noopener">Scrivici su WhatsApp</a></p>
     <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a><br>ti risponde Giovanni Casali, coordinatore editoriale</p>
     <p class="altro"><a href="/estratti/">Vuoi prima farti un'idea di come scriviamo? Leggi qualche estratto.</a></p>
@@ -305,16 +305,16 @@ if(l3){l3.href="https://wa.me/"+n;}
       if(j.success){
         f.reset();
         esito.className="esito ok";
-        esito.textContent="Messaggio ricevuto. Le rispondo io, Giovanni Casali, di solito entro il giorno lavorativo successivo.";
+        esito.textContent="Messaggio ricevuto. Ti rispondo io, Giovanni Casali, di solito entro il giorno lavorativo successivo.";
         document.dispatchEvent(new CustomEvent("dualpen:modulo"));
       }else{
         esito.className="esito ko";
-        esito.textContent="Non sono riuscito a inviare. Puo' scrivere a info@dualpenbooks.com o su WhatsApp.";
+        esito.textContent="Non sono riuscito a inviare. Puoi scrivere a info@dualpenbooks.com o su WhatsApp.";
       }
       bottone.disabled=false;
     }).catch(function(){
       esito.className="esito ko";
-      esito.textContent="Non sono riuscito a inviare. Puo' scrivere a info@dualpenbooks.com o su WhatsApp.";
+      esito.textContent="Non sono riuscito a inviare. Puoi scrivere a info@dualpenbooks.com o su WhatsApp.";
       bottone.disabled=false;
     });
   });
