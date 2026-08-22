@@ -52,6 +52,15 @@
   .numeri .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px;text-align:center}
   .numeri .n{font-size:2.2rem;color:var(--oro);font-weight:bold}
   .numeri .l{font-size:.95rem;letter-spacing:.03em}
+  .catena{border-top:1px solid rgba(201,164,92,.28);margin-top:30px;padding-top:26px;text-align:center}
+  .catena .intro{font-size:1.05rem;margin:0 0 20px}
+  .catena .passi{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+  .catena .passo{background:rgba(201,164,92,.10);border:1px solid rgba(201,164,92,.30);border-radius:8px;padding:14px 10px}
+  .catena .passo .c{font-size:1.5rem;color:var(--oro);font-weight:bold}
+  .catena .passo .e{font-size:.8rem;line-height:1.45;margin-top:4px}
+  .catena .passo.ultimo{background:rgba(201,164,92,.18);border-color:rgba(201,164,92,.55)}
+  .catena .coda{font-size:.85rem;color:#a89c88;margin:18px 0 0;line-height:1.6}
+  .catena .coda a{color:var(--oro)}
 
   .servizi .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
   .card{background:var(--avorio);border:1px solid #e6dfd0;border-radius:8px;padding:24px}
@@ -155,6 +164,16 @@
     <div><div class="n">14</div><div class="l">Sprachen der Hauptreihe</div></div>
     <div><div class="n">262</div><div class="l">veröffentlichte Ausgaben</div></div>
     <div><div class="n">5+</div><div class="l">Liefersprachen: IT · EN · FR · DE · ES, weitere auf Anfrage</div></div>
+  </div>
+  <div class="container catena">
+    <p class="intro">Vom Manuskript ins Regal: jeden Schritt machen wir selbst.</p>
+    <div class="passi">
+      <div class="passo"><div class="c">44</div><div class="e">geschriebene Titel</div></div>
+      <div class="passo"><div class="c">262</div><div class="e">Ausgaben, in 14 Sprachen</div></div>
+      <div class="passo"><div class="c">3</div><div class="e">Formate: E-Book, Taschenbuch, Hörbuch</div></div>
+      <div class="passo ultimo"><div class="c">1.041</div><div class="e">Veröffentlichungseinträge</div></div>
+    </div>
+    <p class="coda">Jeder Eintrag braucht ein Cover, eine Beschreibung, Kategorien, Schlagwörter und Preise für jeden Markt. Wir erstellen sie selbst, auf Amazon KDP und auf StreetLib, und wir unterstützen sie mit Kampagnen. <a href="/de/katalog-und-vertrieb/">Der Katalog, Shop für Shop</a></p>
   </div>
 </div>
 
