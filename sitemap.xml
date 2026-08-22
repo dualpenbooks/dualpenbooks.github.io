@@ -1185,4 +1185,54 @@
     <loc>https://dualpenbooks.com/fr/la-critique/</loc>
     <lastmod>2026-08-19</lastmod>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/catalogo-e-distribuzione/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/catalogue-and-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/catalogue-et-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/katalog-und-vertrieb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/catalogo-y-distribucion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/catalogue-and-distribution/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/catalogue-and-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/catalogue-et-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/katalog-und-vertrieb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/catalogo-y-distribucion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/catalogue-et-distribution/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/catalogue-and-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/catalogue-et-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/katalog-und-vertrieb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/catalogo-y-distribucion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/katalog-und-vertrieb/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/catalogue-and-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/catalogue-et-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/katalog-und-vertrieb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/catalogo-y-distribucion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/catalogo-y-distribucion/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/catalogue-and-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/catalogue-et-distribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/katalog-und-vertrieb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/catalogo-y-distribucion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/catalogo-e-distribuzione/"/>
+  </url>
 </urlset>
