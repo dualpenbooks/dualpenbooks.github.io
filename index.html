@@ -52,6 +52,15 @@
   .numeri .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px;text-align:center}
   .numeri .n{font-size:2.2rem;color:var(--oro);font-weight:bold}
   .numeri .l{font-size:.95rem;letter-spacing:.03em}
+  .catena{border-top:1px solid rgba(201,164,92,.28);margin-top:30px;padding-top:26px;text-align:center}
+  .catena .intro{font-size:1.05rem;margin:0 0 20px}
+  .catena .passi{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+  .catena .passo{background:rgba(201,164,92,.10);border:1px solid rgba(201,164,92,.30);border-radius:8px;padding:14px 10px}
+  .catena .passo .c{font-size:1.5rem;color:var(--oro);font-weight:bold}
+  .catena .passo .e{font-size:.8rem;line-height:1.45;margin-top:4px}
+  .catena .passo.ultimo{background:rgba(201,164,92,.18);border-color:rgba(201,164,92,.55)}
+  .catena .coda{font-size:.85rem;color:#a89c88;margin:18px 0 0;line-height:1.6}
+  .catena .coda a{color:var(--oro)}
 
   .servizi .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
   .card{background:var(--avorio);border:1px solid #e6dfd0;border-radius:8px;padding:24px}
@@ -154,6 +163,16 @@
     <div><div class="n">14</div><div class="l">lingue della collana principale</div></div>
     <div><div class="n">262</div><div class="l">edizioni pubblicate</div></div>
     <div><div class="n">5+</div><div class="l">lingue di consegna: IT · EN · FR · DE · ES, altre su richiesta</div></div>
+  </div>
+  <div class="container catena">
+    <p class="intro">Dal manoscritto allo scaffale, ogni gradino lo facciamo noi.</p>
+    <div class="passi">
+      <div class="passo"><div class="c">44</div><div class="e">titoli scritti</div></div>
+      <div class="passo"><div class="c">262</div><div class="e">edizioni, in 14 lingue</div></div>
+      <div class="passo"><div class="c">3</div><div class="e">formati: ebook, cartaceo, audiolibro</div></div>
+      <div class="passo ultimo"><div class="c">1.041</div><div class="e">schede di pubblicazione</div></div>
+    </div>
+    <p class="coda">Ogni scheda vuole copertina, descrizione, categorie, parole chiave e prezzi per ogni mercato. Le compiliamo noi, su Amazon KDP e su StreetLib, e le sosteniamo con le campagne. <a href="/catalogo-e-distribuzione/">Il catalogo, negozio per negozio</a></p>
   </div>
 </div>
 
