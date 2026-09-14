@@ -84,7 +84,18 @@
   footer{background:#1b1712;color:#8d8577;text-align:center;padding:22px 0;font-size:.85rem}
   footer a{color:#8d8577}
 </style>
-<style id="langfix">nav .dentro{position:relative;padding-right:136px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="navmobile">@media(max-width:760px){nav .dentro{padding:9px 14px;gap:6px 13px}nav a{font-size:.72rem;letter-spacing:.045em}nav .dentro>span{margin:5px 0 0!important;font-size:.76rem}}@media(max-width:400px){nav .dentro{padding:8px 10px;gap:5px 10px}nav a{font-size:.67rem;letter-spacing:.03em}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:flex;gap:8px;position:fixed;left:12px;right:12px;bottom:12px;z-index:99}.wa-fisso a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 8px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}.wa-fisso svg{width:17px;height:17px;flex:none;fill:currentColor}body{padding-bottom:86px}}</style></head>
+<style id="langfix">nav .dentro{position:relative;padding-right:136px}nav .dentro>span{position:absolute;top:13px;right:20px;margin-left:0!important}@media(max-width:760px){nav .dentro{padding-right:20px}nav .dentro>span{position:static;flex-basis:100%;text-align:center;margin:6px 0 0!important}}</style><style id="navmobile">@media(max-width:760px){nav .dentro{padding:9px 14px;gap:6px 13px}nav a{font-size:.72rem;letter-spacing:.045em}nav .dentro>span{margin:5px 0 0!important;font-size:.76rem}}@media(max-width:400px){nav .dentro{padding:8px 10px;gap:5px 10px}nav a{font-size:.67rem;letter-spacing:.03em}}</style><style id="wafisso">.wa-fisso{display:none}@media(max-width:820px){.wa-fisso{display:flex;gap:8px;position:fixed;left:12px;right:12px;bottom:12px;z-index:99}.wa-fisso a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;background:var(--oro);color:var(--inchiostro);text-align:center;padding:15px 8px;border-radius:8px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:1.02rem;letter-spacing:.02em;box-shadow:0 3px 14px rgba(38,34,28,.28)}.wa-fisso svg{width:17px;height:17px;flex:none;fill:currentColor}body{padding-bottom:86px}}</style><style id="pubblicate">
+  .pubblicata{display:flex;gap:22px;align-items:flex-start;background:#fff;border:1px solid #e6dfd0;border-radius:8px;padding:20px 22px}
+  .pubblicata img{width:92px;flex:none;border:1px solid #e6dfd0}
+  .pubblicata strong{display:block;font-size:1.12rem;margin-bottom:2px}
+  .pubblicata .autore{display:block;color:var(--grigio);font-size:.95rem;margin-bottom:6px}
+  .pubblicata .stelle{display:block;color:var(--oro-scuro);font-size:.95rem;margin-bottom:8px}
+  .pubblicata .stelle .vuota{color:#d9cfb6}
+  .pubblicata .frase{display:block;font-style:italic;margin-bottom:10px}
+  .pubblicata .leggi{font-family:Helvetica,Arial,sans-serif;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;color:var(--oro-scuro)}
+  .pubblicata .leggi+.leggi{margin-left:14px}
+  @media(max-width:560px){.pubblicata{flex-direction:column}}
+</style></head>
 <body>
 <nav>
   <div class="dentro">
@@ -127,6 +138,24 @@
     <div class="filo"></div>
     <p>Non è una stella in più sulla scheda del tuo libro. È un giudizio critico firmato, scritto da chi il libro lo legge per intero e lo valuta come si valuta un libro: struttura, ritmo, personaggi o argomentazione, lingua, tenuta dell'insieme. Elogio dove c'è da elogiare, critica dove serve.</p>
     <p>Serve a due cose. Ti dà una frase autorevole da mettere dove conta: la sezione Recensioni editoriali della tua scheda Amazon, il tuo sito, la copertina, i social. E dà al lettore che non ti conosce un motivo per fidarsi che non sia la tua parola.</p>
+  </div>
+</section>
+
+<section id="pubblicate">
+  <div class="container">
+    <h2>L'ultima recensione pubblicata</h2>
+    <div class="filo"></div>
+    <p>Ogni recensione ha una pagina sua, con un indirizzo che resta.</p>
+    <div class="pubblicata">
+      <img src="/img/recensioni/la-strada-buiosa-copertina.jpg" alt="Copertina di La strada buiosa nei suoi occhi neri">
+      <div>
+        <strong>La strada buiosa nei suoi occhi neri</strong>
+        <span class="autore">Ornella Gatti · Susil Edizioni, 2026 · noir psicologico</span>
+        <span class="stelle">★★★★<span class="vuota">★</span> Quattro stelle su cinque</span>
+        <span class="frase">«Pochi centimetri di legno tra una famiglia e il male.»</span>
+        <a class="leggi" href="/recensioni/la-strada-buiosa-nei-suoi-occhi-neri/">Leggi la recensione</a><a class="leggi" href="/en/book-reviews/la-strada-buiosa-nei-suoi-occhi-neri/">In inglese</a>
+      </div>
+    </div>
   </div>
 </section>
 
