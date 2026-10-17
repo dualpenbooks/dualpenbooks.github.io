@@ -243,7 +243,7 @@
     .then(function(r){return r.json();}).then(function(j){
       if(j.success){
         f.reset(); esito.className="esito ok";
-        esito.textContent="Message received. I will reply to you personally, Giovanni Casali, usually within the next working day.";
+        esito.textContent="Message received. I will reply to you personally, Stefano Braccini, usually within the next working day.";
         document.dispatchEvent(new CustomEvent("dualpen:modulo"));
       }else{
         esito.className="esito ko"; esito.textContent="The message could not be sent. Please write to info@dualpenbooks.com or on WhatsApp.";
