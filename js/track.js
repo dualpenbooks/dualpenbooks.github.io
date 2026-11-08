@@ -118,6 +118,27 @@
     segnalaContatto("form-send", "Modulo inviato");
   });
 
+  // Eccezione temporanea, decisa l'08/11/2026, fino all'08/12/2026 compreso: solo chi arriva
+  // da un annuncio (etichetta utm_campaign nell'indirizzo) trova WhatsApp con una frase gia'
+  // scritta, diversa per campagna, cosi' si legge da dove viene il contatto. Per tutti gli altri
+  // la casella resta vuota, come deciso il 22/07/2026. Nulla viene memorizzato sul dispositivo.
+  (function () {
+    var TESTI = {
+      "ads-pubblicare": "Buongiorno, ho scritto un libro e vorrei qualche informazione.",
+      "ads-ghostwriting": "Buongiorno, vorrei far scrivere un libro e avere qualche informazione."
+    };
+    if (new Date() >= new Date("2026-12-09T00:00:00+01:00")) return;
+    var testo = null;
+    try { testo = TESTI[new URLSearchParams(window.location.search).get("utm_campaign")]; } catch (e) {}
+    if (!testo) return;
+    document.addEventListener("click", function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href*="wa.me/"]') : null;
+      if (!a) return;
+      var h = a.getAttribute("href");
+      if (h.indexOf("?") < 0) a.setAttribute("href", h + "?text=" + encodeURIComponent(testo));
+    }, true);
+  })();
+
   // 4) Avviso informativo: compare una sola volta, si chiude con OK. Nessun cookie coinvolto.
   if (!noticeShown()) showNotice();
 
