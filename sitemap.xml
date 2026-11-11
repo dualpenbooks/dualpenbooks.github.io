@@ -1349,4 +1349,104 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/stefano-braccini/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/stefano-braccini/"/>
   </url>
+  <url>
+    <loc>https://dualpenbooks.com/articoli/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/articles/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/articles/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/artikel/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/articulos/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+  </url>
+  <url>
+    <loc>https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dualpenbooks.com/en/articles/i-want-to-write-a-book-who-can-help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dualpenbooks.com/fr/articles/je-veux-ecrire-un-livre-qui-peut-m-aider/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dualpenbooks.com/de/artikel/ich-moechte-ein-buch-schreiben-wer-hilft-mir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dualpenbooks.com/es/articulos/quiero-escribir-un-libro-quien-me-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dualpenbooks.com/articoli/vorrei-scrivere-un-libro-a-chi-rivolgersi/"/>
+  </url>
 </urlset>
