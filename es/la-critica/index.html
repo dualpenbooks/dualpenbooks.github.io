@@ -237,6 +237,43 @@
   </div>
 </section>
 <!-- /critica-tv -->
+<section class="contatti" id="contatti">
+  <div class="container">
+    <h2>Hablemos</h2>
+    <div class="filo"></div>
+    <img src="/img/stefano-braccini.jpg" alt="Stefano Braccini" style="width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid var(--oro);margin:0 auto 18px;display:block">
+    <p>La primera consulta es gratuita y sin compromiso.<br>Escríbanos dos líneas sobre su proyecto: le responde Stefano Braccini, coordinador editorial:<br>suya es la primera consulta, suya la elección de la pluma adecuada y la dirección del proyecto, del presupuesto a la entrega.</p>
+    <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a></p>
+    <form class="modulo" id="modulo-contatti" action="https://formsubmit.co/info@dualpenbooks.com" method="POST" novalidate>
+    <input type="hidden" name="_subject" value="Nuevo mensaje desde la web de DualPen Books (ES)">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+    <div class="riga">
+    <label for="m-nome">Nombre</label>
+    <input id="m-nome" name="nome" type="text" required autocomplete="name">
+    </div>
+    <div class="riga">
+    <label for="m-email">Email</label>
+    <input id="m-email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="riga">
+    <label for="m-tel">Tel&eacute;fono <span class="facolt">(opcional)</span></label>
+    <input id="m-tel" name="telefono" type="tel" autocomplete="tel">
+    </div>
+    <div class="riga">
+    <label for="m-msg">Dos l&iacute;neas sobre su proyecto</label>
+    <textarea id="m-msg" name="messaggio" rows="4" required></textarea>
+    </div>
+    <button type="submit" id="m-invia">Enviar el mensaje</button>
+    <p class="notina">Al enviar el formulario acepta la <a href="/es/privacidad/">pol&iacute;tica de privacidad</a>.</p>
+    <p class="esito" id="m-esito" role="status"></p>
+    </form>
+    <p class="oppure">o, si lo prefiere:</p>
+    <p><a id="wa" href="#" rel="noopener" style="display:inline-block;background:var(--oro);color:var(--inchiostro);padding:12px 30px;border-radius:6px;text-decoration:none;font-size:1rem;letter-spacing:.03em;margin-top:10px">Escríbanos por WhatsApp</a></p>
+  </div>
+</section>
+
 <footer>
   <div class="container">© 2026 DualPen Books · Estudio editorial · Toscana<br><a href="/es/cuanto-cuesta-un-ghostwriter/" style="color:#8d8577">¿Cuánto cuesta un ghostwriter?</a> · <a href="/es/quien-puede-escribir-mi-autobiografia/" style="color:#8d8577">¿Quién puede escribir mi autobiografía?</a> · <a href="/es/para-editoriales-y-agencias/" style="color:#8d8577">Para editoriales y agencias</a> · <a href="/es/privacidad/" style="color:#8d8577">Privacidad</a></div>
 </footer>
@@ -269,5 +306,12 @@
 })();
 </script>
 <script src="/js/track.js"></script>
+<script>
+(function(){
+var n=["3","93","79","39","05","73","6"].join("");
+var l=document.getElementById("wa");
+if(l){l.href="https://wa.me/"+n;}
+})();
+</script>
 </body>
 </html>

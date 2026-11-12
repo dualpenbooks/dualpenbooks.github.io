@@ -238,6 +238,43 @@
   </div>
 </section>
 <!-- /critica-tv -->
+<section class="contatti" id="contatti">
+  <div class="container">
+    <h2>Parlons-en</h2>
+    <div class="filo"></div>
+    <img src="/img/stefano-braccini.jpg" alt="Stefano Braccini" style="width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid var(--oro);margin:0 auto 18px;display:block">
+    <p>Le premier entretien est gratuit et sans engagement.<br>Écrivez-nous quelques lignes sur votre projet : Stefano Braccini, coordinateur éditorial, vous répondra :<br>le premier entretien, le choix de la bonne plume et la conduite du projet, du devis à la livraison, c'est lui.</p>
+    <p><a class="mail" href="mailto:info@dualpenbooks.com">info@dualpenbooks.com</a></p>
+    <form class="modulo" id="modulo-contatti" action="https://formsubmit.co/info@dualpenbooks.com" method="POST" novalidate>
+    <input type="hidden" name="_subject" value="Nouveau message depuis le site DualPen Books (FR)">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+    <div class="riga">
+    <label for="m-nome">Nom</label>
+    <input id="m-nome" name="nome" type="text" required autocomplete="name">
+    </div>
+    <div class="riga">
+    <label for="m-email">E-mail</label>
+    <input id="m-email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="riga">
+    <label for="m-tel">T&eacute;l&eacute;phone <span class="facolt">(facultatif)</span></label>
+    <input id="m-tel" name="telefono" type="tel" autocomplete="tel">
+    </div>
+    <div class="riga">
+    <label for="m-msg">Deux lignes sur votre projet</label>
+    <textarea id="m-msg" name="messaggio" rows="4" required></textarea>
+    </div>
+    <button type="submit" id="m-invia">Envoyer le message</button>
+    <p class="notina">En envoyant ce formulaire, vous acceptez la <a href="/fr/confidentialite/">politique de confidentialit&eacute;</a>.</p>
+    <p class="esito" id="m-esito" role="status"></p>
+    </form>
+    <p class="oppure">ou, si vous pr&eacute;f&eacute;rez :</p>
+    <p><a id="wa" href="#" rel="noopener" style="display:inline-block;background:var(--oro);color:var(--inchiostro);padding:12px 30px;border-radius:6px;text-decoration:none;font-size:1rem;letter-spacing:.03em;margin-top:10px">Écrivez-nous sur WhatsApp</a></p>
+  </div>
+</section>
+
 <footer>
   <div class="container">© 2026 DualPen Books · Studio éditorial · Toscane<br><a href="/fr/combien-coute-un-prete-plume/" style="color:#8d8577">Combien coûte un prête-plume ?</a> · <a href="/fr/qui-peut-ecrire-mon-autobiographie/" style="color:#8d8577">Qui peut écrire mon autobiographie ?</a> · <a href="/fr/pour-editeurs-et-agences/" style="color:#8d8577">Pour éditeurs et agences</a> · <a href="/fr/confidentialite/" style="color:#8d8577">Confidentialité</a></div>
 </footer>
@@ -270,5 +307,12 @@
 })();
 </script>
 <script src="/js/track.js"></script>
+<script>
+(function(){
+var n=["3","93","79","39","05","73","6"].join("");
+var l=document.getElementById("wa");
+if(l){l.href="https://wa.me/"+n;}
+})();
+</script>
 </body>
 </html>
