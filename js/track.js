@@ -114,8 +114,15 @@
 
   // Modulo di contatto (01/08/2026): quarto canale, form-send. Il modulo emette
   // l'evento "dualpen:modulo" solo a invio riuscito, cosi' non si contano i tentativi falliti.
+  // Dal 14/11/2026, decisione di Stefano: a invio riuscito verso Google Ads parte SOLO la
+  // conversione "Invio modulo preventivo", non piu' "Contatto" (che resta per i clic).
+  // GoatCounter continua a contare form-send come prima.
+  var SEND_MODULO = "AW-18323732686/ceq2CLOFo7gdEM7xt6FE";
   document.addEventListener("dualpen:modulo", function () {
-    segnalaContatto("form-send", "Modulo inviato");
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "form-send", title: "Modulo inviato", event: true });
+    if (STRICT) return; // in strict, senza consenso non si invia a Google
+    if (!loaded) loadGtag();
+    gtag("event", "conversion", { send_to: SEND_MODULO, transport_type: "beacon" });
   });
 
   // Eccezione temporanea, decisa l'08/11/2026, fino all'08/12/2026 compreso: solo chi arriva
